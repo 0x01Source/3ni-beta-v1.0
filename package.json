@@ -7,13 +7,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@alpinejs/focus": "^3.14.1",
     "axios": "^1.7.3",
     "core-js": "^3.8.3",
     "flowbite": "^2.5.1",
+    "travis": "^0.1.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -58,5 +60,4 @@
     "not dead",
     "not ie 11"
   ]
-  
 }
