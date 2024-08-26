@@ -1,10 +1,11 @@
 const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/3ni-Beta/' : '/',
-
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/vue3ni/' // Replace with your repository name
+  : '/',
   devServer: {
     port: 8090,
   },
   transpileDependencies: true,
   lintOnSave: false,
-});
+};
