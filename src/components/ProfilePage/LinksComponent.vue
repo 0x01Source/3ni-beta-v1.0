@@ -5,7 +5,7 @@
         <template v-for="link in profile.links" :key="link.id">
           <button class="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-200">
             <a :href="link.url" target="_blank">
-              <div class="relative block overflow-hidden rounded-lg  border-b-4  border-[#dfa027] shadow-lg">
+              <div class="relative block overflow-hidden rounded-lg border-b-4 border-[#dfa027] shadow-lg">
                 <div v-if="link.icon">
                   <img :src="link.icon" class="w-full h-48 object-cover" alt="" />
                 </div>

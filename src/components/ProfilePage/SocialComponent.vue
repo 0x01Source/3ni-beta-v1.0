@@ -1,7 +1,5 @@
 <template>
   <div class="text-center mt-6">
-   
- 
     <div v-if="profile" class="py-2 px-4 mx-auto max-w-screen-xl">
       <div class="grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-6">
         <template v-for="social in profile.social_media_links" :key="social.id">
@@ -30,7 +28,7 @@ export default {
 
   computed: {
     isLoggedIn() {
-      return !!localStorage.getItem("token"); 
+      return !!localStorage.getItem("token");
     },
   },
 
